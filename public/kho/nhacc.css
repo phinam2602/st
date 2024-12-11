@@ -1,0 +1,175 @@
+/* Reset một số kiểu mặc định */
+body,
+h1,
+table {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Thiết lập kiểu cho body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container chính */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Nội dung */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Bảng bên trái */
+.left-panel {
+  width: 30%;
+  padding: 10px;
+}
+
+/* Bảng bên phải */
+.right-panel {
+  width: 70%;
+  padding: 10px;
+}
+
+/* Nhóm */
+.group {
+  margin-bottom: 20px;
+  background: #f9f9f9; /* Màu nền cho ô */
+  border: 1px solid #ddd; /* Đường viền */
+  border-radius: 5px; /* Bo góc */
+  padding: 15px; /* Padding cho ô */
+}
+
+/* Container cho input */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Khoảng cách giữa các trường */
+}
+
+.input-container label {
+  display: block; /* Hiển thị label trên cùng */
+  margin-bottom: 5px; /* Khoảng cách dưới label */
+}
+
+/* Range input */
+.range {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; /* Khoảng cách giữa các input */
+}
+
+/* Nút chỉnh sửa */
+.edit-button {
+  background-color: #007bff; /* Màu xanh */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Nút hover */
+.edit-button:hover {
+  background-color: #0056b3; /* Màu xanh đậm hơn khi hover */
+}
+
+/* Nút */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Màu xanh */
+  color: white;
+  cursor: pointer;
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+  transition: background-color 0.3s;
+}
+
+/* Nút hover */
+button:hover {
+  background-color: #0056b3; /* Màu xanh đậm hơn khi hover */
+}
+
+/* Search bar */
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px; /* Độ rộng của ô tìm kiếm */
+}
+
+/* Bảng */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Đầu bảng */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+/* Dữ liệu bảng */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Đổi màu hàng lẻ */
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Đổi màu hàng chẵn */
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* Checkbox chọn tất cả */
+#selectAll {
+  cursor: pointer;
+}
+
+/* Kiểu cho nhóm radio */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Đường viền cho ô nhóm */
+.group {
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 8px; /* Bo góc */
+  padding: 10px; /* Padding cho ô */
+  background-color: #fff; /* Màu nền */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
